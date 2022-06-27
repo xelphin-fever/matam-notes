@@ -47,14 +47,12 @@ Technion lecture slides and pdfs from webcourse.
 - **050**  [Operator Overloading](050OperatorOverloading.md)
 - **051**  [Assignment Operator](051AssignmentOperator.md)
 - **052**  [[] Overloading](052[]Overloading.md)
-- **053**  [Example: HP](053ExampleHP.md)
-- **054**  [Iterators](054Iterators.md)
+- **053**  [Iterators](053Iterators.md)
 
 
 - **060**  [Templates](060Templates.md)
 - **061**  [Template Class](061TemplateClass.md)
 - **062**  [Function Objects](062FunctionObjects.md)
-- **063**  [Example: Queue](063ExampleQueue.md)
 
 - **070**  [UML](070UML.md)
 - **071**  [Inheritance](071Inheritance.md)
