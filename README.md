@@ -15,6 +15,13 @@ Technion lecture slides and pdfs from webcourse.
 
 ## 📄 Index
 
+### General
+
+- **000**  [Bash](000Bash.md)
+- **001**  [GitHub](001GitHub.md)
+- **002**  [Basic Project Commands](002BasicProjectCommands.md)
+- **003**  [Makefile](003Makefile.md)
+
 ### C
 
 - **010**  [Enums](010Enums.md)
