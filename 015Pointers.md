@@ -1,5 +1,5 @@
 # C
-# Pointers
+# 👉 Pointers
 
 
 ## Basic Pointers
@@ -27,7 +27,8 @@ You HAVE TO initialize pointers to something.
 
 ## VOID* Pointers
 
-Pointer **type** can be decided at runtime
+A ```void*``` pointer is not associated with any data type.
+It simply points to a place in memory (address of variables).
 
 ```cpp
 int int_value = 5;
@@ -37,7 +38,8 @@ void* ptr = &int_value;
 ptr = &double_value;
 ```
 
-But you cannot dereference a void*
+You cannot dereference a void*
+
 ```cpp
 double double_value_copy = *ptr;
 ```

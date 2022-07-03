@@ -6,7 +6,7 @@
 using namespace std;
 ```
 
-A reference is an alternative name for a variable.
+A reference variable is an alias, that is, another name for an already existing variable.
 
 ```cpp
 int i = 1;
@@ -43,7 +43,7 @@ int firstValue = 5;
 int secondValue = 3;
 swap(firstValue, secondValue); 
 ```
-> ❗ Can't do ```swap(4,5)```, you can't refer to temporary values or constants
+> ❗ Can't do ```swap(4,5)```, you can't refer to local values or constants
 ```cpp
 void swap(int& a, int& b) {
   int temp = a;
@@ -53,7 +53,9 @@ void swap(int& a, int& b) {
 ```
 > ❗ Never return a reference to a local value !!! (value declared inside function)
 ## Const Reference
-A const reference CAN refer to a temp value, but can't be changed inside function
+
+A const reference CAN refer to a temp value, but can't be changed inside a scope its not
+defined in.
 ```cpp
 int a = 5;
 print(a)
@@ -70,7 +72,7 @@ void print(const int& r) {
 - Only means it won't be changed here
 - Avoids duplication of large structs in memory
 
-## Reference to Array
+## Pointer to Array
 
 ```cpp
 int array[5] = { 1, 2, 3, 4, 5 };

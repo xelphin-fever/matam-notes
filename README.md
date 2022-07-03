@@ -2,16 +2,18 @@
 
 ## 📜 About
 
-Technion course notes for 234124 - "Introduction to Systems Programming"
+Notes for Technion Course 234124 - "Introduction to Systems Programming"
 
 ## 🧗️ Motivation
 
-References to summarized presentations of the course
-in a more comfortable markdown format.
+Comfortable notes created in markdown format to summarize the course material.
 
 ## 📖 Source
 
 Technion lecture slides and pdfs from webcourse.
+
+> ❗ This has not been revised by the course staff. I have added much of my own notes that may
+> have been wrongly interpreted from the source. Please keep this in mind.
 
 ## 📄 Index
 
@@ -104,14 +106,7 @@ Technion lecture slides and pdfs from webcourse.
 - **141**  [Automatic Testing](141AutomaticTesting.md)
 - **142**  [Testing Large Software](142TestingLargeSoftware.md)
 
-
-### Disclaimer
-
-The notes in this repository are mostly manually copied from the webcourse website.
-Additionaly, I have added much of my own notes.
-Therefore, there may be mistakes.
-
-> Revision required.
+> Revision required (Please use this only as a general reference).
 
 ## 🕺 Contributers
 
